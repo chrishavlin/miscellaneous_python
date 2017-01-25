@@ -1,3 +1,27 @@
+"""
+geocodes a list of cities using OpenStreetMap API Nomatim via MapQuest. 
+
+written to process the database written by Jeremy Pressman (@djpressman, U of Connecticut) and
+Erica Chenoweth (@EricaChenoweth, U of Denver), a collection of data on the Women's Marches on Jan 21, 2017
+
+original spreadsheet here: 
+
+https://docs.google.com/spreadsheets/d/1xa0iLqYKz8x9Yc_rfhtmSOJQ2EGgeUVjvV4A8LsIaxY/htmlview?sle=true#gid=0
+
+Copyright (C) 2016  Chris Havlin, <https://chrishavlin.wordpress.com>, @s_i_r_h_c
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+"""
+
 import pandas as pa
 import sys, time, urllib2
 import numpy as np
