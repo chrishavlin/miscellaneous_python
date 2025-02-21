@@ -1,0 +1,7 @@
+vispy
+matplotlib
+numpy
+jupyterlab
+numba
+PyQt5
+unyt
